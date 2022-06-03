@@ -1,1 +1,1 @@
-this is c project readme.md
+this is c hello world readme
