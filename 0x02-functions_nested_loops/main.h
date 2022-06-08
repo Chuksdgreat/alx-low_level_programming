@@ -1,1 +1,1 @@
-print_alphabet_x10();
+int _putchar(char c);
