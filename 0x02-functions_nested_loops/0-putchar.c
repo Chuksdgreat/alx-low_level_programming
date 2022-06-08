@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main -> program that prints _putchar, followed by a new line
- * Retuen: always 0
+ *main -> program that prints _putchar, followed by a new line
+ *Retuen: always 0
  */
 
 int main(void)
