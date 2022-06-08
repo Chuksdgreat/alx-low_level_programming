@@ -5,7 +5,7 @@
 *
 * Return: Always 0.
 */
-print_alphabet_10x(void);
+print_alphabet_10x();
 
 {
 	int j;
