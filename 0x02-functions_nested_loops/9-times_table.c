@@ -6,7 +6,7 @@
  */
 void times_table(void)
 
-int main(void)
+int main(void);
 {
 	int n, i;
 
@@ -18,4 +18,3 @@ int main(void)
 	}
 	return (0);
 }
-
