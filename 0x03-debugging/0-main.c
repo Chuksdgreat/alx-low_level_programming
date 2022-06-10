@@ -2,10 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 
-/**
- * main - test of positive or negative
- * Return: 0
- */
 
 void positive_or_negative(int i)
 {
