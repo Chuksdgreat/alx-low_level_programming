@@ -1,29 +1,24 @@
 #include <stdio.h>
 
 /**
- *main -> program that prints the alphabet in lowercase,
- *followed by a new line
+ *main -> assign a random number to the variable n each time it is esecuted
+ *and print the last digit of the number stored in the variable n
  *Return: always 0
  */
 int main(void)
 {
-	char ch;
+int ch;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	{
-		if (ch != 'q' && ch != 'e')
-		{
-			putchar(ch);
-		}
-	}
-
-	for (ch = 'A'; ch <= 'Z'; ch++)
-	{
-		if (ch != 'Q' && ch != 'E')
-		{
-			putchar(ch);
-		}
-	}
-	putchar(10); /* this is an ascii code for new line*/
-	return (0);
+for (ch = 97; ch <= 122; ch++)
+{
+putchar(ch);
 }
+for (ch = 65; ch <= 90; ch++)
+{
+putchar(ch);
+}
+putchar(10); /* this is an ascii code for new line*/
+
+return (0);
+}
+
