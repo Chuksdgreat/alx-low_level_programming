@@ -6,7 +6,6 @@
 
 void times_table(void)
 
-int main(void);
 {
 	int x, y, k;
 
