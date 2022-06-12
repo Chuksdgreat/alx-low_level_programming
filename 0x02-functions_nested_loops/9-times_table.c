@@ -1,20 +1,38 @@
 #include "main.h"
 
 /**
- *main - prints the 9 times table, starting with 0
- *Return: always 0
+ *times_table -> time table
  */
+
 void times_table(void)
 
 int main(void);
 {
-	int n, i;
+	int x, y, k;
 
-	printf("Enter and integer: ");
-	scanf("%d", &n);
-	for (i = 1; i <= 10; ++i)
+	for (x = 0; x < 10; x++)
 	{
-		printf("%d * %d = %d \n", n, i, n * i);
+		for (y = 0; y < 10; y++)
+		{
+			k = x * y;
+			if (y == 0)
+				_putchar(k * '0');
+			if (y != 0 && k < 10)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(k + '0')
+			}
+			else if
+				(k + '0');
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar((k / 10) + '10');
+				_putchar((k % 10) + '10');
+			}
+		}
+		_putchar('\n')
 	}
-	return (0);
 }
