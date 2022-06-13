@@ -1,4 +1,4 @@
-#inlude "main.h"
+#include "main.h"
 
 /**
  * print_rev -> printing a strin in reverse
@@ -17,5 +17,5 @@ void print_rev(char *s)
 	{
 		_putchar(s[i]);
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
