@@ -25,7 +25,7 @@ int main(void)
 		j = k;
 		k = next;
 	}
-	printf("%lu\n", sum)0
+	printf("%lu\n", sum);
 
-		return (0);
+	return (0);
 }
